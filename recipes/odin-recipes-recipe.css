@@ -1,0 +1,51 @@
+/* * {
+    border: 1px dashed blue;
+} */
+
+.name {
+    text-align: center;
+    color: yellow;
+    background-color: red;
+    font-size: 40px;
+}
+
+.desc,
+.content {
+    font-size: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.ingredients {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: lightsalmon;
+}
+
+.steps li {
+    margin-bottom: 1em;
+}
+
+.recipe h2 {
+    text-align: start;
+    margin-left: 1.2rem;
+}
+
+.desc h2 {
+    margin-left: 0;
+}
+
+.ingredients h2 {
+    margin-left: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
