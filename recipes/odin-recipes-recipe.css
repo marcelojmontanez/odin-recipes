@@ -31,17 +31,14 @@
     margin-bottom: 1em;
 }
 
-.recipe h2 {
+.recipe h2, 
+.recipe h3 {
     text-align: start;
     margin-left: 1.2rem;
 }
 
 .desc h2 {
     margin-left: 0;
-}
-
-.ingredients h2 {
-    margin-left: 5%;
 }
 
 img {
